@@ -23,6 +23,12 @@ html {
   font-size: 10px;
 }
 
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0;

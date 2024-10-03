@@ -1,0 +1,9 @@
+@media (min-width: 768px) and (max-width: 1119px) {
+  .swiper {
+    /* background-color: black; */
+  }
+
+  body {
+    background-color: blue;
+  }
+}
