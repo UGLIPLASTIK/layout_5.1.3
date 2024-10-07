@@ -1,3 +1,22 @@
 @media (min-width: 1120px) {
-  
+  .title {
+    padding-left: 32px;
+  }
+
+  .brand-list {
+    padding-left: 48px;
+  }
+
+  .brand-list__item {
+    width: 240px;
+  }
+
+  .toolge-button {
+    margin-left: 25px;
+  }
+
+  .my-swiper--hidden {
+    display: none;
+  }
+
 }
