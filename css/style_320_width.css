@@ -29,7 +29,7 @@
   .swiper-slide-active {
     position: relative;
     z-index: 10;
-    box-shadow: inset -35px -5px 14px -23px #FFFFFF;
+    box-shadow: inset -35px -5px 14px -23px #F8F8F8;
   }
 
   .my-swiper__slide-wripper {
@@ -40,7 +40,8 @@
     padding: 16px 20px;
     align-items: center;
     box-sizing: border-box;
-    border: 2px solid #ffffff;
+    background-color: #fff;
+    border: 2px solid #EAEAEA;
     border-radius: 7px;
   }
 
