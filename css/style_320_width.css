@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
-  .brand-list--hidden {
+  .brand-wrapper {
     display: none;
   }
 
@@ -9,8 +9,9 @@
   }
 
   .swiper {
-    width: 100%;
+    max-width: 375px;
     height: 150px;
+    margin: 0 auto;
   }
 
   .swiper--hidden {
@@ -18,17 +19,37 @@
   }
   
   .swiper-slide {
-    text-align: center;
     font-size: 18px;
     display: flex;
-    justify-content: space-between;
     padding: 0 75px 0 32px;
     align-items: center;
     box-sizing: border-box;
   }
 
+  .swiper-slide-active {
+    position: relative;
+    z-index: 10;
+    box-shadow: inset -35px -5px 14px -23px #FFFFFF;
+  }
+
+  .my-swiper__slide-wripper {
+    width: 240px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+  }
+
+  .my-swiper__slide-wripper:hover {
+    border-color: #3fb2ff;
+  }
+
   .swiper-slide-next {
-    translate: -55px 0;
+    translate: -80px 0;
   }
   
   .swiper-slide img {

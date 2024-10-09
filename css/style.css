@@ -36,6 +36,8 @@ body {
   padding-top: 16px;
   background-color: #fff;
   height: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 
 .title {
@@ -52,7 +54,7 @@ body {
 }
 
 .brand-wrapper--folded {
-  height: 150px;
+  height: 165px;
 }
 
 
@@ -88,17 +90,26 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 35px 24px;
+  gap: 7px 20px;
   padding: 0 24px;
   margin-bottom: 40px;
 }
 
+
 .brand-list__item {
+  width: 240px;
+  height: 72px;
   display: flex;
   justify-content: space-between;
+  padding: 16px 20px;
   align-items: center;
-  padding-right: 35px;
-  width: 224px;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.brand-list__item:hover {
+  border-color: #3fb2ff;
 }
 
 .toolge-button {
